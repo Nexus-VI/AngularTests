@@ -1,0 +1,7 @@
+
+<button (click)="add_NodeSVG()">Add SVG Node</button>
+<button (click)="add_NodeHTML()">Add HTML Node</button>
+<node-html *ngFor="let nodo of NodeList_HTML"></node-html> 
+<svg width="100%" height="1024px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <svg:g *ngFor="let nodo of NodeList_SVG" node-svg />
+</svg>
