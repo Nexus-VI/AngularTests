@@ -6,10 +6,11 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NodeSVG } from './node_svg.component';
 import { NodeHTML } from './node_html.component';
+import { Cable } from './cable.component';
 
 @NgModule({
   declarations: [
-    AppComponent, NodeHTML, NodeSVG
+    AppComponent, NodeHTML, NodeSVG, Cable
   ],
   imports: [
     BrowserModule,
